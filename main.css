@@ -1,0 +1,40 @@
+body{
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: 130px;
+	margin-right: 130px;
+	background-color: #DF013A;
+
+}
+
+h1{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 50px;
+}
+
+h3{
+	padding-top: 0px;
+}
+
+a{
+	color: #B40431;
+}
+
+.everything{
+	background-color: #FA5882;
+}
+
+
+.avatar{
+	right: 50%;
+	margin-left: 79%;
+}
+
+#update{
+	text-align:center;
+}
+
+.divupdate{
+	text-align:center;
+}

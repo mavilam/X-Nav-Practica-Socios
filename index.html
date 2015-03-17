@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <title>Socios</title>
+</head>
+ 
+<body>
+    <h1>Socios</h1>
+ 
+    <div class="container everything">
+     
+
+
+        <div id="content">
+            <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+                <li class="active"><a href="#timeline" data-toggle="tab">TimeLine</a></li>
+                <li><a href="#myline" data-toggle="tab">Myline</a></li>
+
+            </ul>
+            <div id="my-tab-content" class="tab-content">
+                <div class="tab-pane active" id="timeline">
+                    <h2>TimeLine</h2>
+                    <div class="divupdate">
+                        <button id="update" type="button" class="btn btn-danger">Update</button>
+                    </div>
+                    <br>
+                    <div id="updatetimeline"></div>
+                    <div id="timelinemsg"></div>
+                </div>
+                <div class="tab-pane" id="myline">
+                    <h2>MyLine</h2>
+                    <div id="mylinemsg"></div>
+                </div>
+                
+            </div>
+        </div>
+     
+     
+      
+    </div> <!-- container -->
+ 
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
