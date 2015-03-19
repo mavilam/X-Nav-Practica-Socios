@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$('#tabs').tab();
     var updatemsg;
 
-    $.getJSON( "http://localhost:8000/update.json", function( data ) {
+    $.getJSON( "update.json", function( data ) {
     	updatemsg = data;
     	var count = 0;
 		for (var i in data) {
@@ -15,7 +15,7 @@ $(document).ready(function() {
     	$("#update").html("Update " + count + " msg");
     });
 
-    $.getJSON( "http://localhost:8000/timeline.json", function( data ) {
+    $.getJSON( "timeline.json", function( data ) {
     	$.each( data, function(i, item) {
     		var div = "#"+i+"timeline";
 	       $("#timelinemsg").append("<div class=\"alert alert-danger \" id=\"" + i +"timeline\" role=\"alert\"></div>");
@@ -30,7 +30,7 @@ $(document).ready(function() {
 	   
     });
     
-    $.getJSON( "http://localhost:8000/myline.json", function( data ) {
+    $.getJSON( "myline.json", function( data ) {
     	$.each( data, function(i, item) {
     		var div = "#"+i+"myline";
 	       $("#mylinemsg").append("<div class=\"alert alert-danger \" id=\"" + i +"myline\" role=\"alert\"></div>");
